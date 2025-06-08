@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SayHello : MonoBehaviour
 {
-    int number = 0;
+    string sayMyName = "Maksim";
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +14,10 @@ public class SayHello : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        number++;
-        Debug.Log("UPDATE"+number);
+        Heloooooooo();
+    }
+    void Heloooooooo()
+    {
+        Debug.Log(sayMyName);
     }
 }

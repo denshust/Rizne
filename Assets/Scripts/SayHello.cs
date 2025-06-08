@@ -5,8 +5,9 @@ using UnityEngine;
 public class SayHello : MonoBehaviour
 {
     string sayMyName = "Maksim";
-    // Start is called before the first frame update
-    void Start()
+	string sayYourName = "Your Name";
+	// Start is called before the first frame update
+	void Start()
     {
         Debug.Log("Hello");
     }
@@ -19,5 +20,6 @@ public class SayHello : MonoBehaviour
     void Heloooooooo()
     {
         Debug.Log(sayMyName);
-    }
+		Debug.Log(sayYourName);
+	}
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SayHello : MonoBehaviour
 {
+    int number = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,7 @@ public class SayHello : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        number++;
+        Debug.Log("UPDATE"+number);
     }
 }
